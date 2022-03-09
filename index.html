@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BaitapJS2-3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+  </head>
+  <!-- Bài 1 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Tính tiền lương nhân viên</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Số ngày làm</label>
+              <input
+                id="txtSoNgayLam"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <button id="btnTinhLuongNV" class="btn btn-danger">
+              Tính tiền lương NV
+            </button>
+          </div>
+
+          <div id="footerTinhLuongNV" class="card-footer text-muted"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Bài 2 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Tính giá trị trung bình</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập số thứ 1</label>
+              <input
+                id="txtNumber_1"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Nhập số thứ 2</label>
+              <input
+                id="txtNumber_2"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Nhập số thứ 3</label>
+              <input
+                id="txtNumber_3"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Nhập số thứ 4</label>
+              <input
+                id="txtNumber_4"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Nhập số thứ 5</label>
+              <input
+                id="txtNumber_5"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <button id="btnAverage" class="btn btn-danger">
+              Tính trung bình
+            </button>
+          </div>
+
+          <div id="footerAverage" class="card-footer text-muted"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Bài 3 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Quy đổi tiền USD->VND</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập số tiền USD</label>
+              <input
+                id="txtUSD"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+          </div>
+          <button id="btnVND" class="btn btn-danger">Quy đổi VNĐ</button>
+        </div>
+        <div id="footerVND_value" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Bài 4 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Tính chu vi, diện tích hình chữ nhật</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập chiều dài</label>
+              <input
+                id="txtWidth"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+            <div class="form-group">
+              <label for="">Nhập chiều rộng</label>
+              <input
+                id="txtHeight"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+          </div>
+          <button id="btnPerimeter_Area" class="btn btn-danger">
+            Tính chu vi, diện tích
+          </button>
+        </div>
+        <div id="footerResult" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- Bài 5 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">Tính tổng hai ký số</div>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="">Nhập số có hai chữ số</label>
+              <input
+                id="txtNumber"
+                type="text"
+                class="form-control"
+                aria-describedby="helpId"
+                placeholder=""
+              />
+            </div>
+          </div>
+          <button id="btnTinhTong" class="btn btn-danger">
+            Tính tổng 2 ký số
+          </button>
+        </div>
+        <div id="footerTong2KySo" class="card-footer text-muted"></div>
+      </div>
+    </div>
+  </div>
+  <body>
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+      integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
